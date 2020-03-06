@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/btnEbay"
+        android:layout_width="170dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/ic_launcher_background"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/btnWeb"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnBusca"
+        app:srcCompat="@drawable/ebay" />
+
+    <ImageButton
+        android:id="@+id/btnSub"
+        android:layout_width="170dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ic_launcher_background"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/btnBusca"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/submarino" />
+
+    <ImageButton
+        android:id="@+id/btnBusca"
+        android:layout_width="170dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/backgroundblue"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/btnEbay"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSub"
+        app:srcCompat="@drawable/buscape" />
+
+    <ImageButton
+        android:id="@+id/btnMercado"
+        android:layout_width="170dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/ic_launcher_background"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnWeb"
+        app:srcCompat="@drawable/mercadolivre" />
+
+    <ImageButton
+        android:id="@+id/btnWeb"
+        android:layout_width="170dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/backgroundblue"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/btnMercado"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnEbay"
+        app:srcCompat="@drawable/webmotors" />
+
+    <ImageButton
+        android:id="@+id/btnMagalu"
+        android:layout_width="170dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/backgroundblue"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnMercado"
+        app:srcCompat="@drawable/magazinelogo" />
+
+    <ImageButton
+        android:id="@+id/btnNetshoes"
+        android:layout_width="170dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/ic_launcher_background"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnMagalu"
+        app:srcCompat="@drawable/netshoes" />
+
+    <ImageButton
+        android:id="@+id/btnAmerica"
+        android:layout_width="170dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/backgroundblue"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnNetshoes"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/americanas" />
+
+    <Button
+        android:id="@+id/btnSobre"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="Sobre"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnAmerica" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
